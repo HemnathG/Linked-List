@@ -7,9 +7,9 @@ public class LinkedListMain {
 		System.out.println("LINKED LIST");
 		linkedlist.addLast(56);
 		linkedlist.display();
-		linkedlist.addLast(30);
-		linkedlist.display();
 		linkedlist.addLast(70);
+		linkedlist.display();
+		linkedlist.insertAtSpecificIndex(1,30);
 		linkedlist.display();
 	}
 
